@@ -1,6 +1,6 @@
 import java.util.Arrays;
-public class HelloWorld{
-    public static int[] BubbleSort(int[] arr){
+public class BubbleSort{
+    public static int[] BubbleSortArray(int[] arr){
         for(int i = 0 ; i< arr.length ; i ++ ){
             for (int j = 0; j < arr.length -1 ; j++){
                 if (arr[j] > arr[j+1]){
@@ -21,7 +21,7 @@ public class HelloWorld{
         // Time - O(n^2)
         // Space - O(1)
         int[] a = new int[] {1,6,3,9,4,5,11};
-        int[] b = BubbleSort(a);
+        int[] b = BubbleSortArray(a);
        System.out.println(Arrays.toString(b));
         
      }
