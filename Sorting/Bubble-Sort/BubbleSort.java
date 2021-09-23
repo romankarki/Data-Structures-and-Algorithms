@@ -18,6 +18,8 @@ public class HelloWorld{
     }
 
      public static void main(String []args){
+        // Time - O(n^2)
+        // Space - O(1)
         int[] a = new int[] {1,6,3,9,4,5,11};
         int[] b = BubbleSort(a);
        System.out.println(Arrays.toString(b));
