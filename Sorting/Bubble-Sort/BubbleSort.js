@@ -1,5 +1,6 @@
 // Bubble sort algorithm implemented in Javascript
-
+// Time - O(n^2)
+// Space - O(1)
 function bubble_sort(array){
     for(let i = 0 ; i < array.length; i++){
         for (let j = 0 ; j < array.length; j++){

@@ -1,5 +1,7 @@
 """
 Bubble sort implemented in python
+ Time - O(n^2)
+ Space - O(1)
 """
 
 
