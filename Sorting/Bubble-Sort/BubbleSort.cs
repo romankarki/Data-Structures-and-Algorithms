@@ -27,9 +27,9 @@ namespace Sorting
     }
     public static void Main()
     {
-        Console.WriteLine("Hello World");
+        // Time - O(n^2)
+        // Space - O(1)
         var a = BubbleSort(new int[] { 1, 9, 18, 5, 10, 3, 4 });
         PrintArray(a);
-
     }
 }
