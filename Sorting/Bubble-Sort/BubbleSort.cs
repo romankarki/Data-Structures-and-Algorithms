@@ -20,7 +20,6 @@ namespace Sorting
         }
         public static void PrintArray(int[] arr)
         {
-
             Console.WriteLine("[{0}]", string.Join(", ", arr));
         }
         public static void swap(int i, int j, int[] array)
