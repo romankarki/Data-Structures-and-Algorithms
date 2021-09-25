@@ -4,7 +4,7 @@
 
 function SelectionSort(arr){
     currentIndex = 0;
-    while( currentIndex < arr.length -1){
+    while( currentIndex < arr.length-1){
         smallestIndex = currentIndex;
         for(let i = currentIndex + 1; i < arr.length; i++){
             if (arr[smallestIndex] > arr[i]){
