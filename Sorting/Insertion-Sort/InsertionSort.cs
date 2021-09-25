@@ -23,6 +23,8 @@ public class InsertionSort
     }
     public static void Main()
     {
+        //time complexiy = O(n^2)
+        //space complexity = O(1)
         int[] a = new int[] { 3, 2, 4, 5, 1, 12, 19, 11 };
         var result = InsertionSortArray(a);
         //printing Results

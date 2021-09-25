@@ -19,6 +19,8 @@ public class InsertionSort{
     }
 
      public static void main(String []args){
+        //time complexiy = O(n^2)
+        //space complexity = O(1)
         int[] a = new int[] {1,6,3,9,4,5,11};
         int[] b = insertionSortArray(a);
        System.out.println(Arrays.toString(b));
