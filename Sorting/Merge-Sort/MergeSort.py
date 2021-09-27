@@ -39,7 +39,6 @@ def doMerge(mainArray, startIdx, middleIdx, endIdx, auxiliaryArray):
 
 
 def mergeSort(array):
-    # Write your code here.
     if len(array) <= 1:
         return array
     auxiliaryArray = array[:]
