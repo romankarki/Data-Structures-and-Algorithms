@@ -10,9 +10,9 @@ export function SelectionSort(arr:number[]):number[]{
         for(let i = currentIndex+1; i < arr.length; i++){
             if(arr[smallestIndex]>arr[i]){
                 smallestIndex  = i;
-
             }
         }
+        //swapping the values
         [arr[smallestIndex],arr[currentIndex]]= [arr[currentIndex],arr[smallestIndex]];
         currentIndex +=1;
     }
