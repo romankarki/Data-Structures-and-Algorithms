@@ -3,6 +3,7 @@ Merge sorting in Python
 
 Time Complexity - O(nlog(n))
 Space Complexity - O(n^2)
+This solution uses recursion though this algorithm can also be implemented iteratively
 """
 
 
