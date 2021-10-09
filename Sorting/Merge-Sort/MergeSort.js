@@ -3,6 +3,7 @@ Merge sort algorithm using javascript
 
 Time Complexity - O(nlog(n))
 Space Complexity - O(n^2)
+this is not working at the moment
 */
 
 function mergeSortHelper(mainArray, startIdx, endIdx, auxiliaryArray){
