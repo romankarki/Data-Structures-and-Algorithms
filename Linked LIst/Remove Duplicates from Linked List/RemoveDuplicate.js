@@ -5,6 +5,7 @@ class LinkedList {
     }
 }
 
+// o(n) time complexity with o(1) space complexity
 function removeDuplicatesFromLinkedList(linkedList){
     let currentNode = linkedList;
     while(currentNode != null){

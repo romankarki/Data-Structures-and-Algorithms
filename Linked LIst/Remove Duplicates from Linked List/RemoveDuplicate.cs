@@ -11,6 +11,8 @@ public class Program
             this.next = null;
         }
     }
+
+    // o(n) time complexity with o(1) space complexity
     public LinkedList RemoveDuplicateFromLinkedList(LinkedList list)
     {
         var currentNode = list;
